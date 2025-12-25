@@ -15,7 +15,7 @@ var (
 	Win            = iutils.IsWin()
 	Mac            = iutils.IsMac()
 	Root           = iutils.IsRoot()
-	DefaultMaxSize = 1024 * 16 // 16k
+	DefaultMaxSize = 1024 * 32 // 16k
 )
 
 // return open: 0, closed: 1, filtered: 2, noroute: 3, denied: 4, down: 5, error_host: 6, unkown: -1
